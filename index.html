@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' https://cdn.prod.website-files.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self';">
+  <title>Troubles Psychologiques</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <img id="logo" src="assets/img/logo-ytb.webp" alt="Logo de la chaine YouTube Psytheque">
+        <h1>Psythèque</h1>
+        <button class="ytb_link"><a href="https://www.youtube.com/@psytheque" target="_blank" rel="noopener noreferrer">Visiter la chaine</a></button>
+    </header>
+  <!-- --------- Parallax existant (inchangé) --------- -->+
+    
+  <div class="parallax">
+    <section class="parallax__header">
+      <div class="parallax__visuals">
+        <div class="parallax__black-line-overflow"></div>
+        <div data-parallax-layers class="parallax__layers">
+          <img 
+            src="assets/img/bg_01.webp" 
+            loading="eager" 
+            width="800" 
+            data-parallax-layer="1" 
+            alt="" 
+            class="parallax__layer-img"
+          >
+          <img 
+            src="assets/img/bg_02.webp" 
+            loading="eager" 
+            width="800" 
+            data-parallax-layer="2" 
+            alt="" 
+            class="parallax__layer-img"
+          >
+          <div data-parallax-layer="3" class="parallax__layer-title">
+            <h2 id="captain_america_title" class="parallax__title">Captain America</h2>
+          </div>
+          <img 
+            src="assets/img/captain_america_03.webp" 
+            loading="eager" 
+            width="800" 
+            data-parallax-layer="4" 
+            alt="" 
+            class="parallax__layer-img"
+          >
+        </div>
+        <div class="parallax__fade"></div>
+      </div>
+    </section>
+  </div>
+  <!-- ---------------------------------------------- -->
+
+<section id="personnage" class="personnage-section">
+    <div class="section-container">
+        <div class="section-content">
+            <h2>Notre Personnage</h2>
+            <div class="personnage-container">
+                <div class="personnage-image">
+                    <div class="image-container">
+                        <img src="assets/img/captain amercia-Photoroom.png" alt="Captain America LEGO" class="character-img">
+                    </div>
+                </div>
+                <div class="text-block">
+                    <h3>Découvrez notre protagoniste</h3>
+                    <p>Notre personnage principal incarne les défis quotidiens auxquels sont confrontées les personnes souffrant de troubles psychologiques. À travers son parcours, nous explorons les hauts et les bas, les victoires et les défis qui caractérisent la vie avec un trouble mental.</p>
+                    <p>Cette représentation vise à créer de l'empathie et à montrer que, malgré les difficultés, il est possible de trouver de la force et du soutien.</p>
+                    <a href="https://www.youtube-nocookie.com/embed/B1x0OrLvYU0?si=-iA_K5oj5fCpC2x7" target="_blank" rel="noopener noreferrer"><button class="effect-btn">Voir la vidéo YouTube</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="troubles" class="troubles-section underwater-effect">
+    <div class="section-container">
+        <div class="section-content">
+            <div class="section-header">
+                <h2>Ses troubles psychologiques</h2>
+                <div class="section-divider"></div>
+                <div class="effect-controls">
+                    <button id="adjust-effects" class="effect-btn">Réduire l'effet</button>
+                </div>
+            </div>
+            
+            <div class="troubles-container">
+                <div class="trouble-card depression-card">
+                    <!-- id="depression-card" -->
+                    <h3>La Dépression</h3>
+                    <p>La dépression est un trouble mental caractérisé par une tristesse persistante, une perte d'intérêt pour les activités habituellement agréables, et une incapacité à effectuer les activités quotidiennes pendant au moins deux semaines.</p>
+                    <p>Elle affecte les sentiments, les pensées et le comportement d'une personne et peut conduire à une variété de problèmes émotionnels et physiques.</p>
+                </div>
+                <div class="text-block depression-text" id="depression-text">
+                    <h3>Comprendre la dépression</h3>
+                    <p>La dépression va au-delà de la simple tristesse. C'est un trouble complexe qui affecte la façon dont une personne pense, ressent et gère les activités quotidiennes. Elle peut être causée par une combinaison de facteurs génétiques, biologiques, environnementaux et psychologiques.</p>
+                    <p>Dans notre vidéo, nous explorons comment la dépression peut affecter tous les aspects de la vie d'une personne et comment le soutien et la compréhension peuvent faire une différence significative.</p>
+                </div>
+            </div>
+            
+            <div class="troubles-container reversed">
+                <div class="text-block anxiety-text-block">
+                    <h3>Vivre avec l'anxiété</h3>
+                    <p>L'anxiété peut se manifester de différentes manières et à différents degrés. Pour certaines personnes, elle peut être paralysante, rendant difficile l'accomplissement des tâches quotidiennes.</p>
+                    <p>Notre vidéo illustre les défis quotidiens auxquels sont confrontées les personnes souffrant d'anxiété et les stratégies qu'elles peuvent utiliser pour gérer leurs symptômes.</p>
+                </div>
+                <div class="trouble-card anxiety-card" id="anxiety-card">
+                    <h3>L'Anxiété</h3>
+                    <p>L'anxiété est caractérisée par des sentiments d'inquiétude, d'anxiété ou de peur suffisamment forts pour interférer avec les activités quotidiennes d'une personne.</p>
+                    <p>Les symptômes peuvent inclure des sentiments d'appréhension, de nervosité, ou de tension, une anticipation d'un danger imminent, et une augmentation de la vigilance.</p>
+                    <!-- <audio id="breathing-sound" preload="auto">
+                        <source src="assets/audio/breathing-sound.mp3" type="audio/mpeg">
+                        Votre navigateur ne supporte pas l'élément audio.
+                    </audio> -->
+                </div>
+            </div>
+            
+            <div class="troubles-container">
+                <div class="trouble-card ptsd-card" id="ptsd-card">
+                    <h3>Le Stress post-traumatique (PTSD)</h3>
+                    <p>Le PTSD est un trouble anxieux qui peut se développer après l'exposition à un événement traumatisant, comme un combat militaire, une catastrophe naturelle ou une agression personnelle.</p>
+                    <p>Les symptômes incluent des flashbacks, des cauchemars, une anxiété sévère et des pensées incontrôlables liées à l'événement traumatique.</p>
+                    <!-- <audio id="heartbeat-sound" preload="auto">
+                        <source src="assets/audio/heartbeat-sound.mp3" type="audio/mpeg">
+                        Votre navigateur ne supporte pas l'élément audio.
+                    </audio> -->
+                </div>
+                <div class="text-block ptsd-text" id="ptsd-text">
+                    <h3>Comprendre le PTSD</h3>
+                    <p>Le PTSD est souvent mal compris et stigmatisé. En réalité, c'est un trouble complexe qui peut affecter n'importe qui ayant vécu un traumatisme significatif.</p>
+                    <p>Notre vidéo vise à donner une représentation précise et nuancée du PTSD, montrant comment il affecte la vie quotidienne et les relations, tout en soulignant l'importance du traitement et du soutien.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <h1>CSS Oval Animation</h1>
+<p>The image below moves in an oval path and stops once it completes the loop:</p>
+
+<img id="captain-america-shield" src="assets/img/captain-america-shield.webp" alt="Animated Image"> -->
+
+<canvas id="particleCanvas"></canvas>
+
+<section id="video" class="video-section">
+    <div class="section-container">
+        <div class="section-content">
+            <h2>Notre Vidéo</h2>
+            <div class="text-block">
+                <h3>À propos de notre projet</h3>
+                <p>Bienvenue sur notre site dédié à la compétition YouTube sur les troubles psychologiques. Notre vidéo explore différents aspects des troubles mentaux à travers une narration créative utilisant des personnages LEGO.</p>
+                <p>Notre objectif est de sensibiliser le public aux réalités des troubles psychologiques et de contribuer à réduire la stigmatisation qui les entoure.</p>
+            </div>
+            <div class="video-container">
+                <div class="video-placeholder">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/B1x0OrLvYU0?si=-iA_K5oj5fCpC2x7&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="shorts" class="shorts-section">
+    <div class="section-container">
+        <div class="section-content">
+            <h2>Nos Shorts</h2>
+            <p class="shorts-intro">Découvrez nos courts extraits qui mettent en lumière différents aspects des troubles psychologiques.</p>
+            
+            <div class="shorts-container">
+                <div class="short-item">
+                    <div class="short-video">
+                        <iframe src="https://www.youtube.com/embed/GTvc18FAoBQ?rel=0" title="YouTube Short 1" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe>
+                    </div>
+                    <div class="short-info">
+                        <h3>Comprendre l'anxiété</h3>
+                        <p>Un aperçu rapide des symptômes de l'anxiété et comment ils affectent la vie quotidienne.</p>
+                    </div>
+                </div>
+                
+                <div class="short-item">
+                    <div class="short-video">
+                        <iframe src="https://www.youtube.com/embed/LJ8v0W_TOHw?rel=0" title="YouTube Short 2" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe>
+                    </div>
+                    <div class="short-info">
+                        <h3>La dépression expliquée</h3>
+                        <p>Comment reconnaître les signes de la dépression et pourquoi il est important d'en parler.</p>
+                    </div>
+                </div>
+                
+                <div class="short-item">
+                    <div class="short-video">
+                        <iframe width="431" height="767" src="https://www.youtube.com/embed/v0tTi1GGCEc" title="Ne joue pas avec mon GANG. 😈#cat #catmemes #dankmemes #horrorstories" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="short-info">
+                        <h3>Le trouble bipolaire</h3>
+                        <p>Comprendre les cycles du trouble bipolaire et ses impacts sur la vie quotidienne.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-avis">
+    <h2>Commentaires</h2>
+    <div class="avis-container">
+      <div class="avis-item">
+        <p class="avis-texte">"Toujours un plaisir de regarder vos vidéos ! Votre contenu est d’une grande qualité et très bien travaillé 👏🔥"</p>
+        <p class="avis-auteur">- Alice</p>
+      </div>
+      <div class="avis-item">
+        <p class="avis-texte">"On ressent vraiment la passion derrière votre travail, et cela fait toute la différence !"</p>
+        <p class="avis-auteur">- Bob</p>
+      </div>
+      <div class="avis-item">
+        <p class="avis-texte">"Vous avez ce petit truc en plus qui rend vos vidéos captivantes, continuez ainsi !"</p>
+        <p class="avis-auteur">- Carol</p>
+      </div>
+    </div>
+  </section>
+  
+
+<footer>
+    <div class="footer-content">
+        <div class="copyright">
+            <p>&copy; 2025 Compétition YouTube - Troubles Psychologiques. Tous droits réservés.</p>
+        </div>
+        <div class="legal">
+            <h4>Mentions légales</h4>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Mentions légales</span>
+                        <i class="accordion-icon">+</i>
+                    </button>
+                    <div class="accordion-content">
+                        <h5>À propos de Psythèque</h5>
+                        <p><strong>Psythèque</strong> - Projet éducatif sur les troubles psychologiques</p>
+                        <p>Ce site a été créé dans le cadre d'une compétition YouTube pour sensibiliser aux différents troubles psychologiques.</p>
+                        
+                        <h5>Responsable et contact</h5>
+                        <p><strong>Responsable du site :</strong> Psythèque</p>
+                        <p><strong>Contact :</strong> <a href="mailto:contact@psytheque.fr">contact@psytheque.fr</a></p>
+                        
+                        <h5>Hébergement</h5>
+                        <p><strong>Hébergement :</strong> Ce site est hébergé par [Nom de l'hébergeur], [Adresse de l'hébergeur]</p>
+                        
+                        <h5>Propriété intellectuelle</h5>
+                        <p>L'ensemble du contenu de ce site (textes, images, vidéos) est la propriété exclusive de Psythèque ou de ses partenaires. Toute reproduction sans autorisation est interdite.</p>
+                        
+                        <h5>Données personnelles</h5>
+                        <p>Aucune donnée personnelle n'est collectée lors de votre visite sur ce site.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  
+  
+  <!-- ---------------------------------------------- -->
+
+  <!-- GSAP, ScrollTrigger, Lenis et app.js -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script src="assets/js/app.js"></script>
+
+  <!-- Script supplémentaire pour les animations décoratives -->
+  <script>
+  
+    // Le code Lenis a été déplacé dans app.js pour éviter la double déclaration
+  </script>
+</body>
+</html>
